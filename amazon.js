@@ -1,0 +1,61 @@
+gsap.from(".logo",{
+      y:-100,
+      duration:1,
+     opacity:0,
+     yoyo:true
+})
+gsap.from(".nav-2",{
+    x:-100,
+    duration:0.5,
+    // stagger:0.5
+}
+)
+gsap.from(".menu",{
+    x:-100,
+    duration:1,
+    delay:2.8,
+    opacity:0
+}
+)
+gsap.from(".deal",{
+     x:-120,
+     duration:1,
+     delay: 2.2,
+     opacity:0
+}
+)
+gsap.from(".Register",{
+    x:-140,
+    duration:1,
+   delay:1.8,
+   opacity:0
+}
+)
+gsap.from(".service",{
+    x:-160,
+    duration:1,
+  delay:1.4,
+  opacity:0
+}
+)
+gsap.from(".gift",{
+    x:-180,
+    duration:1,
+delay:1,
+opacity:0
+}
+)
+gsap.from(".sell",{
+    x:-200,
+    duration:1,
+   delay:0.6,
+   opacity:0
+}
+)
+gsap.from(".hot-deal",{
+    x:700,
+    duration:1,
+  delay:0.3,
+  opacity:0
+}
+)
